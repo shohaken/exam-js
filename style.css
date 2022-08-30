@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    /* background-color: #fff;
+    position: fixed;
+    top: 0; */
+}
+
+.img{
+    width: 200px;
+    height: 50px;
+    background: url("./overstock-com-logo-6A6E21D545-seeklogo.com.png") no-repeat center/cover;
+
+}
+.input{
+    width: 820px;
+    height: 34px;
+    display: flex;
+    border-radius: 3px;
+    margin-left: 20px;
+    border: 1px solid #0007;
+}
+.input input{
+    width: 95%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    text-indent: 12px;
+
+}
+.input button{
+    width: 5%;
+    height: 100%;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: #ff1f2c;
+}
+.icons{
+    width: 300px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.icons i{
+    font-size: 20px;
+}
+.fa-bars{
+    font-size: 30px;
+    display: none;
+}
+.navTop{
+    width: 100%;
+    height: 33px;
+    border-bottom: 1px solid #0007;
+    border-top: 1px solid #0007;
+}
+ul{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.item{
+    color: red;
+}
+.banner{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+.title{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.banners{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    margin: auto;
+}
+.box1{
+    display: none;
+}
+.banner2{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner2 img{
+    width: 90%;
+    height: 100%;
+}
+.titl{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.tit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.bannerss{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.carousel{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    overflow-x: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.carousel_item img{
+    width: 250px;
+}
+.carousel_item{
+    width: 200px;
+    min-width: 300px;
+    height: 350px;
+    /* border: 1px solid red; */
+    margin: 10px;
+    overflow: hidden;
+}
+.carousel::-webkit-scrollbar{
+    height: 6px;
+}
+.carousel::-webkit-scrollbar-thumb{
+    background-color: #999;
+    border-radius: 6px;
+}   
+
+
+
+
+
+
+
+.baner{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.baner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fa-tag{
+    color: orange;
+}
+.one p{
+    color: orange;
+}

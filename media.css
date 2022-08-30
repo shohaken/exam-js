@@ -1,0 +1,29 @@
+@media screen and (max-width:600px){
+    .fa-bars{
+        display: block;
+    }
+    .img{
+        width: 60px;
+
+        margin-left: 5px;
+        background: url("./media\ img.png") no-repeat center/cover;
+    }
+    .input{
+        display: none;
+    }
+    .icons{
+        margin-left: 150px;
+    }
+    .navTop{
+        display: none;
+    }
+    .box{
+        margin: auto;
+    }
+    .box1{
+        display: block;
+    }
+    .banner2{
+        height: 40vh;
+    }
+}
