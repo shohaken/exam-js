@@ -109,6 +109,7 @@ li{
 }
 .box1{
     display: none;
+    margin: auto;
 }
 .banner2{
     width: 100%;
