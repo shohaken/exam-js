@@ -1,3 +1,22 @@
+@media screen and (max-width:960px){
+    .bnr{
+        /* display: none; */
+        width: 80%;
+    }
+    .b{
+        width: 100%;
+    }
+    .b img{
+        width: 100%;
+    }
+    .box{
+        margin: auto;
+    }
+    .box1{
+        display: block;
+        margin: auto;
+    }
+}
 @media screen and (max-width:600px){
     .fa-bars{
         display: block;
@@ -27,4 +46,18 @@
     .banner2{
         height: 40vh;
     }
+    .bo{
+        margin: 20px 150px;
+    }
+    .bnr{
+        width: 98%;
+    }
+    .b{
+        width: 90%;
+        margin: auto;
+    }
+    .b img{
+        width: 100%;
+    }
 }
+
